@@ -1,0 +1,134 @@
+.slider,
+.aumenu,
+.p2,
+.r {
+  visibility: hidden;
+  display: none;
+}
+
+body {
+  background-image: url(../médias/fond.jpg);
+  background-attachment: fixed;
+  background-repeat: repeat;
+  size: cover;
+  height: 1000px;
+  margin:5px;
+  position: center center;
+  position: relative;
+}
+
+.superconteneur {
+  size: cover;
+  position: center center;
+  background-repeat: no-repeat;
+}
+
+.tlp2 .p1:hover {
+  color: red;
+  transition: 1s;
+}
+.tlp2 {
+  height: 65px;
+  text-align: center;
+  font-size: x-large;
+}
+
+a {
+  text-decoration: none;
+}
+
+.p1 {
+  font-size: x-large;
+  width: 80px;
+  height: 350px;
+  margin-right: 10px;
+  margin-left: 0px;
+  padding-left: 5px;
+}
+
+.tlp2 {
+  font-size: x-large;
+  width: 80px;
+  height: 50px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.programme {
+  display: inline-block;
+  background-color: rgba(206, 218, 39, 0.678);
+  position: fixed;
+  top: 0;
+  left: 115;
+  right: 100;
+  z-index: 4;
+  width: 250px;
+  height: 50px;
+
+}
+
+.tlr h2 {
+  display: inline-block;
+  width: 450px;
+  height: 40px;
+  margin-right: 0px;
+  padding-top: 15px;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.tlr h2:hover {
+  cursor: grab;
+  color: red;
+}
+
+.tlaumenu {
+  width: 450px;
+  height: 50px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  font-size: medium;
+}
+
+footer {
+  height: 40px;
+  position: absolute;
+  z-index: 3;
+  margin-top: 0px;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(13, 3, 49);
+  margin: 0 auto;
+
+}
+footer p {
+  display: inline-block;
+  margin: auto 0;
+  vertical-align: top;
+  padding: 10px;
+  color: white;
+}
+footer a {
+  display: inline-block;
+}
+.espace2 {
+  margin-left: 50px;
+}
+
+.telephone {
+  height: 920px;
+  margin-top: 60px;
+}
+
+.page{
+  margin-top: 60px;
+}

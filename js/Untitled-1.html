@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="jquery-3.6.0.js"></script>
+    <script src="js2.js"></script>
+    
+    <script>
+
+
+    window.onload=function(){
+        $(document).ready(function(){
+            $('#p1').hide()
+
+            $("#h").click(function(){
+                $("#p1").toggle("slow")
+                $("#p1").css({"color":"blue"})
+            })
+        })
+    }
+    </script>
+</head>
+
+<body>
+<div id="conteneur">
+    <div id="contenu">
+        <h1 id="h">numerot</h1>
+        <p id="p1">1 2 3 4 5 6 7 8 9</p>
+        <h1>lettres</h1>
+        <p>a b c d e f g h i</p>
+    </div>
+</div>
+</body>
+</html>
